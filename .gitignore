@@ -1,0 +1,18 @@
+# Ignore Model Weights (Too big for GitHub)
+*.bin
+*.pt
+*.pth
+*.ckpt
+/models/
+
+# Ignore Python Cache
+__pycache__/
+*.pyc
+
+# Ignore Logs and Checkpoints
+/logs/
+/checkpoints/
+training_args.bin
+
+# System files
+.DS_Store
